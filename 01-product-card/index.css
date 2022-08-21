@@ -1,1 +1,148 @@
 /* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Arial Black';
+    font-style: normal;
+    background: #F6F6F6;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    padding: 0 20px 20px 20px;
+    margin: 0;
+}
+
+.products-of-the-week {
+    width: 100%;
+}
+
+.products-of-the-week__title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.products-of-the-week__items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.products-of-the-week__item-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 380px;
+    height: auto;
+    padding: 214px 24px 96px;
+    border-radius: 12px;
+    overflow: hidden;
+    color: #2F2F2F;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px -4px rgba(0, 0, 0, 0.18);
+}
+
+.item-card__image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 214px;
+    object-fit: cover;
+}
+
+.item-card__tags-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+.item-card__tag {
+    width: auto;
+    height: 25px;
+    padding: 0 16px;
+    border-radius: 8px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.item-card__tag--new {
+    background: #FDCFF3;
+}
+
+.item-card__tag--last {
+    background: #FFCF56;
+}
+
+.item-card__title {
+    width: 100%;
+    margin: 24px 0 16px 0;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.item-card__description {
+    margin: 0;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.item-card__button {
+    position: absolute;
+    bottom: 24px;
+    width: 87%;
+    height: 48px;
+    border: 2px solid #42940F;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-family: 'Arial Black';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #42940F;
+    text-transform: uppercase;
+}
+
+.item-card__button:disabled {
+    border: 1px solid #4E4E4E;
+    background: #4E4E4E;
+    color: #FFFFFF;
+}
+
+.item-card__button:not(:disabled):hover {
+    background: #42940F;
+    color: #FFFFFF;
+}
+
+.item-card__button:not(:disabled):active {
+    border: 2px solid #1F5200;
+    background: #1F5200;
+    color: #FFFFFF;
+}

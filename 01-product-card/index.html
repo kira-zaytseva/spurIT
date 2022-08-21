@@ -1,16 +1,50 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SpurIT - Тестовое задание 1. HTML и CSS</title>
     <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-<main>
-<!-- Напиши разметку на этом месте и больше ничего не трогай -->
-</main>
+    <main>
+        <section class="products-of-the-week">
+            <h1 class="products-of-the-week__title">Товары недели</h1>
+            <ul class="products-of-the-week__items-container">
+                <li class="products-of-the-week__item-card">
+                    <img src="./img/product-img.jpg" alt="Orange juice" class="item-card__image">
+                    <ul class="item-card__tags-list">
+                        <li class="item-card__tag item-card__tag--new">Новинка</li>
+                        <li class="item-card__tag item-card__tag--last">Последний</li>
+                    </ul>
+                    <h2 class="item-card__title">Апельсиновый сок</h2>
+                    <p class="item-card__description">Он придётся по душе, даже если ты слива лиловая, спелая,
+                        садовая.</p>
+                    <button class="item-card__button">В корзину</button>
+                </li>
+                <li class="products-of-the-week__item-card">
+                    <img src="./img/product-img.jpg" alt="Orange juice" class="item-card__image">
+                    <h2 class="item-card__title">Апельсиновый сок</h2>
+                    <p class="item-card__description">
+                        Он придётся по душе, даже если ты слива лиловая, спелая, садовая. Ну что сказать? Ну что сказать? Устроены так длинные описания.
+                    </p>
+                    <button class="item-card__button">В корзину</button>
+                </li>
+                <li class="products-of-the-week__item-card">
+                    <img src="./img/product-img.jpg" alt="Orange juice" class="item-card__image">
+                    <h2 class="item-card__title">Апельсиновый сок</h2>
+                    <p class="item-card__description">Он придётся по душе, даже если ты слива лиловая, спелая,
+                        садовая.
+                    </p>
+                    <button class="item-card__button" disabled>Закончилось</button>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
+
 </html>
