@@ -79,8 +79,6 @@ body {
 }
 
 .item-card__tag {
-    width: auto;
-    height: 25px;
     padding: 0 16px;
     border-radius: 8px;
     list-style: none;
