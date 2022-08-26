@@ -27,6 +27,10 @@ body {
     font-family: serif;
 }
 
+.figure__image {
+    max-width: 100%;
+}
+
 .figure__caption {
     margin: 0.5rem 0 0;
     font-style: italic;
