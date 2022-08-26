@@ -1,5 +1,13 @@
 # Тестовое задание 
 
+# Выполнено:
+
+Задание 1 - https://kira-zaytseva.github.io/spurIT/01-product-card/
+
+Задание 2 - https://kira-zaytseva.github.io/spurIT/02-collapse/
+
+Задание 3 - https://kira-zaytseva.github.io/spurIT/03-fix-problems/
+
 ## Как попасть на курс?
 1. Тестовое задание состоит из 3-х частей. Выполните все три. Подробности к каждой части вы найдёте в соответствующей папке: ```01-product-card```, ```02-collapse```, ```03-fix-problems```.
 2. Загрузите всё на GitHub и отправьте нам ссылку в ответ на письмо, в котором было тестовое задание.
